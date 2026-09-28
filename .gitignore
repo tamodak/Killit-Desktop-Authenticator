@@ -1,4 +1,24 @@
+# .NET build output
 bin/
 obj/
+TestResults/
+*.pdb
+
+# build.sh: downloaded dependencies (adb, USB driver, KB2999226, Inno Setup), staging, Wine prefix
 build/
+# build.sh: the compiled installer
 dist/
+
+# IDEs and editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
