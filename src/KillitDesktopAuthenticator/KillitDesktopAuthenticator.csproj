@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    .NET Framework 4.5 because it ships with Windows 8 (4.5) and 8.1 (4.5.1) and is covered by the
+    4.6+/4.8 runtime built into Windows 10 and 11, so the program runs everywhere with nothing to
+    install. Reference assemblies come from NuGet, which lets this build on Linux.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net45</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>KillitDesktopAuthenticator</RootNamespace>
+    <AssemblyName>KillitDesktopAuthenticator</AssemblyName>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <Version>1.0.0</Version>
+    <Product>Killit Desktop Authenticator</Product>
+    <Company>tamodak</Company>
+    <Copyright>tamodak</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <SatelliteResourceLanguages>ar;de;es;fr;id;pt;ru;tr</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Strings.resx">
+      <StronglyTypedLanguage>CSharp</StronglyTypedLanguage>
+      <StronglyTypedNamespace>KillitDesktopAuthenticator.Properties</StronglyTypedNamespace>
+      <StronglyTypedClassName>Strings</StronglyTypedClassName>
+      <StronglyTypedFileName>$(IntermediateOutputPath)Strings.Designer.cs</StronglyTypedFileName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

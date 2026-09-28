@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The app targets .NET Framework 4.5, which cannot run on Linux, so the tests compile the
+    I/O-free adb sources directly against a modern runtime instead of referencing the app.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>disable</Nullable>
+    <AssemblyName>KillitDesktopAuthenticator.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\KillitDesktopAuthenticator\Adb\AdbModels.cs" Link="Adb\AdbModels.cs" />
+    <Compile Include="..\..\src\KillitDesktopAuthenticator\Adb\AdbParsers.cs" Link="Adb\AdbParsers.cs" />
+    <Compile Include="..\..\src\KillitDesktopAuthenticator\Adb\AdbClient.cs" Link="Adb\AdbClient.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+</Project>

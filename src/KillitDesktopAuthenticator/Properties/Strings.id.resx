@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Menjadikan aplikasi Killit sebagai Pemilik Perangkat di ponselmu. Di ponsel, aktifkan USB debugging di Opsi pengembang, hubungkan dengan kabel USB, lalu terima pertanyaan “Izinkan USB debugging?”.</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Ponsel yang terhubung</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Ponsel</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Nomor seri</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Siap</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>Menunggu izin – terima pertanyaan di ponsel</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Offline – sambungkan ulang kabel</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Tidak tersedia ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Muat ulang</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Periksa</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Akun dan pengguna yang harus dihapus</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Akun</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>Pengguna / profil</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>ID pengguna {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Hapus setiap item di bawah ini di ponsel melalui Setelan (Akun, serta Pengguna atau Beberapa pengguna), lalu tekan Periksa lagi.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Pemilik Perangkat</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Otorisasi</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Dapatkan Killit di tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>Mencari ponsel…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>Ponsel tidak ditemukan. Periksa kabel USB, pastikan USB debugging aktif dan driver USB untuk ponselmu sudah terpasang, lalu tekan Muat ulang.</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Ponsel ditemukan: {0}. Pilih satu lalu tekan Periksa.</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>Memeriksa ponsel…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>Killit belum terpasang di ponsel ini. Pasang dulu, lalu tekan Periksa lagi.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>Ponsel ini sudah memiliki Pemilik Perangkat ({0}). Satu ponsel hanya bisa punya satu, jadi ponsel harus direset pabrik sebelum Killit bisa menjadi Pemilik Perangkat.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Item yang harus dihapus: {0}. Hapus di ponsel, lalu tekan Periksa lagi.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Ponsel siap. Tekan Otorisasi untuk menjadikan Killit Pemilik Perangkat.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>Menjadikan Killit Pemilik Perangkat…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Selesai! Killit sekarang menjadi Pemilik Perangkat pada ponsel ini. Kamu boleh mencabut kabelnya.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>Ponsel melaporkan berhasil, tetapi Killit tidak dapat dipastikan sebagai Pemilik Perangkat. Tekan Periksa untuk melihat lagi.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>Android menolak menjadikan Killit Pemilik Perangkat.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>Masih ada akun di ponsel. Hapus akun tersebut dan tekan Periksa lagi.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>Masih ada pengguna lain atau profil kerja di ponsel. Hapus dan tekan Periksa lagi.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>Ponsel sudah memiliki Pemilik Perangkat. Ponsel harus direset pabrik terlebih dahulu.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>Ponsel ini memerlukan satu setelan lagi: di Opsi pengembang, aktifkan juga “USB debugging (Setelan keamanan)” (Xiaomi, Redmi, POCO), lalu coba lagi.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>Versi Killit di ponsel ini tidak kompatibel. Perbarui Killit lalu coba lagi.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Pesan dari ponsel:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Koneksi ke ponsel terputus ({0}). Sambungkan lagi dan tekan Muat ulang.</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>adb tidak dapat dijalankan ({0}). Pasang ulang Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>adb tidak dapat berjalan karena pembaruan Windows KB2999226 (Universal C Runtime) belum terpasang. Pasang melalui Windows Update atau pasang ulang program ini, lalu jalankan lagi.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Kesalahan tak terduga: {0}</value>
+  </data>
+</root>

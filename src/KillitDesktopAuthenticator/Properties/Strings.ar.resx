@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>يجعل تطبيق Killit مالك الجهاز على هاتفك. على الهاتف، فعّل تصحيح أخطاء USB في خيارات المطوّر، ووصّله بكابل USB، ثم وافق على سؤال «هل تريد السماح بتصحيح أخطاء USB؟».</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. الهواتف المتصلة</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>الرقم التسلسلي</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>بانتظار الإذن – وافق على السؤال في الهاتف</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>غير متصل – أعد توصيل الكابل</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>غير متاح ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>فحص</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. الحسابات والمستخدمون المطلوب إزالتهم</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>حساب</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>مستخدم / ملف شخصي</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>معرّف المستخدم {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>أزِل كل عنصر أدناه من الهاتف عبر الإعدادات (الحسابات، والمستخدمون أو المستخدمون المتعددون)، ثم اضغط «فحص» مرة أخرى.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. مالك الجهاز</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>تفويض</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>احصل على Killit من tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>جارٍ البحث عن الهواتف…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>لم يُعثر على أي هاتف. تحقق من كابل USB، وتأكد من تفعيل تصحيح أخطاء USB وتثبيت برنامج تشغيل USB الخاص بهاتفك، ثم اضغط «تحديث».</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>الهواتف التي عُثر عليها: {0}. اختر هاتفًا واضغط «فحص».</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>جارٍ فحص الهاتف…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>تطبيق Killit غير مثبت على هذا الهاتف. ثبّته أولًا، ثم اضغط «فحص» مرة أخرى.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>لهذا الهاتف مالك جهاز بالفعل ({0}). لا يمكن أن يكون للهاتف إلا مالك واحد، لذا يجب إعادة ضبط المصنع قبل أن يصبح Killit مالك الجهاز.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>العناصر المطلوب إزالتها: {0}. أزِلها من الهاتف، ثم اضغط «فحص» مرة أخرى.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>الهاتف جاهز. اضغط «تفويض» لجعل Killit مالك الجهاز.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>جارٍ جعل Killit مالك الجهاز…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>تم! أصبح Killit الآن مالك هذا الهاتف. يمكنك فصله.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>أفاد الهاتف بالنجاح، لكن تعذّر التأكد من أن Killit أصبح مالك الجهاز. اضغط «فحص» للتحقق مرة أخرى.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>رفض Android جعل Killit مالك الجهاز.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>لا تزال هناك حسابات على الهاتف. أزِلها واضغط «فحص» مرة أخرى.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>لا يزال هناك مستخدمون آخرون أو ملف عمل على الهاتف. أزِلهم واضغط «فحص» مرة أخرى.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>للهاتف مالك جهاز بالفعل. يجب إعادة ضبط المصنع أولًا.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>يحتاج هذا الهاتف إلى إعداد إضافي: في خيارات المطوّر فعّل أيضًا «تصحيح أخطاء USB (إعدادات الأمان)» (Xiaomi وRedmi وPOCO)، ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>إصدار Killit على هذا الهاتف غير متوافق. حدّث Killit وحاول مرة أخرى.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>رسالة من الهاتف:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>انقطع الاتصال بالهاتف ({0}). أعد توصيله واضغط «تحديث».</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>تعذّر تشغيل adb ({0}). أعد تثبيت Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>تعذّر تشغيل adb لأن تحديث Windows ذا الرقم KB2999226 (Universal C Runtime) غير مثبت. ثبّته عبر Windows Update أو أعد تثبيت هذا البرنامج، ثم شغّله من جديد.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>خطأ غير متوقع: {0}</value>
+  </data>
+</root>

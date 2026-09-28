@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Fait de l’app Killit le propriétaire de l’appareil de ton téléphone. Sur le téléphone, active le débogage USB dans les Options pour les développeurs, branche-le avec un câble USB et accepte la question « Autoriser le débogage USB ? ».</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Téléphones connectés</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>En attente d’autorisation – accepte la question sur le téléphone</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Hors ligne – rebranche le câble</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Indisponible ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Vérifier</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Comptes et utilisateurs à supprimer</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>Utilisateur / profil</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>ID utilisateur {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Supprime chaque élément ci-dessous sur le téléphone, dans les Paramètres (Comptes, et Utilisateurs ou Utilisateurs multiples), puis appuie à nouveau sur Vérifier.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Propriétaire de l’appareil</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Autoriser</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Télécharger Killit sur tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>Recherche de téléphones…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>Aucun téléphone trouvé. Vérifie le câble USB, assure-toi que le débogage USB est activé et que le pilote USB de ton téléphone est installé, puis appuie sur Actualiser.</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Téléphones trouvés : {0}. Sélectionnes-en un et appuie sur Vérifier.</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>Vérification du téléphone…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>Killit n’est pas installé sur ce téléphone. Installe-le d’abord, puis appuie à nouveau sur Vérifier.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>Ce téléphone a déjà un propriétaire de l’appareil ({0}). Un téléphone ne peut en avoir qu’un ; il faut donc le réinitialiser aux paramètres d’usine avant que Killit puisse le devenir.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Éléments à supprimer : {0}. Supprime-les sur le téléphone, puis appuie à nouveau sur Vérifier.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Le téléphone est prêt. Appuie sur Autoriser pour faire de Killit le propriétaire de l’appareil.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>Killit devient propriétaire de l’appareil…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Terminé ! Killit est désormais le propriétaire de ce téléphone. Tu peux le débrancher.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>Le téléphone a signalé une réussite, mais Killit n’a pas pu être confirmé comme propriétaire de l’appareil. Appuie sur Vérifier pour regarder à nouveau.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>Android a refusé de faire de Killit le propriétaire de l’appareil.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>Il reste des comptes sur le téléphone. Supprime-les et appuie à nouveau sur Vérifier.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>Il reste d’autres utilisateurs ou un profil professionnel sur le téléphone. Supprime-les et appuie à nouveau sur Vérifier.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>Le téléphone a déjà un propriétaire de l’appareil. Il faut d’abord le réinitialiser aux paramètres d’usine.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>Ce téléphone a besoin d’un réglage de plus : dans les Options pour les développeurs, active aussi « Débogage USB (paramètres de sécurité) » (Xiaomi, Redmi, POCO), puis réessaie.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>La version de Killit sur ce téléphone n’est pas compatible. Mets Killit à jour et réessaie.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Message du téléphone :</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Connexion au téléphone perdue ({0}). Rebranche-le et appuie sur Actualiser.</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>Impossible de démarrer adb ({0}). Réinstalle Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>adb n’a pas pu démarrer car la mise à jour Windows KB2999226 (Universal C Runtime) est absente. Installe-la via Windows Update ou réinstalle ce programme, puis relance-le.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Erreur inattendue : {0}</value>
+  </data>
+</root>

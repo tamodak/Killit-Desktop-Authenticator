@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Killit uygulamasını telefonunun Cihaz Sahibi yapar. Telefonda Geliştirici seçeneklerinden USB hata ayıklamayı aç, telefonu USB kablosuyla bağla ve “USB hata ayıklamaya izin verilsin mi?” sorusunu onayla.</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Bağlı telefonlar</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Seri numarası</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Hazır</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>İzin bekleniyor – telefondaki soruyu onayla</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Çevrimdışı – kabloyu yeniden tak</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Kullanılamıyor ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Kontrol et</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Kaldırılması gereken hesaplar ve kullanıcılar</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Ayrıntılar</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>Kullanıcı / profil</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>Kullanıcı kimliği {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Aşağıdaki her öğeyi telefonda Ayarlar'dan (Hesaplar ve Kullanıcılar ya da Birden çok kullanıcı) kaldır, sonra yeniden Kontrol et'e bas.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Cihaz Sahibi</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Yetkilendir</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Killit'i tamodak.org adresinden indir</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>Telefonlar aranıyor…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>Telefon bulunamadı. USB kablosunu kontrol et, USB hata ayıklamanın açık ve telefonunun USB sürücüsünün kurulu olduğundan emin ol, sonra Yenile'ye bas.</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Bulunan telefon: {0}. Birini seç ve Kontrol et'e bas.</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>Telefon kontrol ediliyor…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>Bu telefonda Killit kurulu değil. Önce Killit'i kur, sonra yeniden Kontrol et'e bas.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>Bu telefonun zaten bir Cihaz Sahibi var ({0}). Bir telefonun yalnızca bir Cihaz Sahibi olabilir; Killit'in Cihaz Sahibi olabilmesi için telefonun fabrika ayarlarına döndürülmesi gerekir.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Kaldırılacak öğe: {0}. Bunları telefondan kaldır, sonra yeniden Kontrol et'e bas.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Telefon hazır. Killit'i Cihaz Sahibi yapmak için Yetkilendir'e bas.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>Killit Cihaz Sahibi yapılıyor…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Tamam! Killit artık bu telefonun Cihaz Sahibi. Kabloyu çıkarabilirsin.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>Telefon başarılı olduğunu bildirdi, ancak Killit'in Cihaz Sahibi olduğu doğrulanamadı. Yeniden bakmak için Kontrol et'e bas.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>Android, Killit'i Cihaz Sahibi yapmayı reddetti.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>Telefonda hâlâ hesaplar var. Bunları kaldır ve yeniden Kontrol et'e bas.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>Telefonda hâlâ başka kullanıcılar veya bir iş profili var. Bunları kaldır ve yeniden Kontrol et'e bas.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>Telefonun zaten bir Cihaz Sahibi var. Önce fabrika ayarlarına döndürülmesi gerekir.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>Bu telefonda bir ayar daha gerekiyor: Geliştirici seçeneklerinde “USB hata ayıklama (Güvenlik ayarları)” seçeneğini de aç (Xiaomi, Redmi, POCO), sonra yeniden dene.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>Bu telefondaki Killit sürümü uyumlu değil. Killit'i güncelle ve yeniden dene.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Telefondan gelen mesaj:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Telefonla bağlantı kesildi ({0}). Yeniden bağla ve Yenile'ye bas.</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>adb başlatılamadı ({0}). Killit Desktop Authenticator'ı yeniden kur.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>KB2999226 Windows güncellemesi (Universal C Runtime) eksik olduğu için adb başlatılamadı. Windows Update ile kur ya da bu programı yeniden kur, sonra programı tekrar başlat.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Beklenmeyen hata: {0}</value>
+  </data>
+</root>

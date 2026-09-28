@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Makes the Killit app the Device Owner of your phone. On the phone, turn on USB debugging in Developer options, connect it with a USB cable and accept the “Allow USB debugging?” prompt.</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Connected phones</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>Waiting for permission – accept the prompt on the phone</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Offline – reconnect the cable</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Not available ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Accounts and users to remove</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>User / profile</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>User ID {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Remove every item below on the phone, in Settings (Accounts, and Users or Multiple users), then press Check again.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Device Owner</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Authenticate</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Get Killit at tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>Looking for phones…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>No phone found. Check the USB cable, make sure USB debugging is on and the USB driver for your phone is installed, then press Refresh.</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Phones found: {0}. Select one and press Check.</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>Checking the phone…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>Killit is not installed on this phone. Install it first, then press Check again.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>This phone already has a Device Owner ({0}). A phone can only have one, so it has to be factory reset before Killit can become Device Owner.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Items to remove: {0}. Remove them on the phone, then press Check again.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>The phone is ready. Press Authenticate to make Killit the Device Owner.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>Making Killit the Device Owner…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Done! Killit is now the Device Owner of this phone. You can unplug it.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>The phone reported success, but Killit could not be confirmed as Device Owner. Press Check to look again.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>Android refused to make Killit the Device Owner.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>There are still accounts on the phone. Remove them and press Check again.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>There are still other users or a work profile on the phone. Remove them and press Check again.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>The phone already has a Device Owner. It has to be factory reset first.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>This phone needs one more setting: in Developer options also turn on “USB debugging (Security settings)” (Xiaomi, Redmi, POCO), then try again.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>The Killit version on this phone is not compatible. Update Killit and try again.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Message from the phone:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Lost the connection to the phone ({0}). Reconnect it and press Refresh.</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>adb could not be started ({0}). Reinstall Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>adb could not start because the Windows update KB2999226 (Universal C Runtime) is missing. Install it with Windows Update or reinstall this program, then start it again.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Unexpected error: {0}</value>
+  </data>
+</root>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Делает приложение Killit владельцем устройства на вашем телефоне. На телефоне включите отладку по USB в параметрах разработчика, подключите его USB-кабелем и подтвердите запрос «Разрешить отладку по USB?».</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Подключённые телефоны</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Готов</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>Ожидание разрешения – подтвердите запрос на телефоне</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Не в сети – переподключите кабель</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Недоступен ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Аккаунты и пользователи, которые нужно удалить</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>Пользователь / профиль</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>ID пользователя {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Удалите на телефоне каждый элемент из списка ниже в Настройках (Аккаунты, а также Пользователи или Несколько пользователей), затем снова нажмите «Проверить».</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Владелец устройства</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Авторизовать</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Скачать Killit на tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>Поиск телефонов…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>Телефон не найден. Проверьте USB-кабель, убедитесь, что отладка по USB включена и USB-драйвер для вашего телефона установлен, затем нажмите «Обновить».</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Найдено телефонов: {0}. Выберите один и нажмите «Проверить».</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>Проверка телефона…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>Killit не установлен на этом телефоне. Сначала установите его, затем снова нажмите «Проверить».</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>У этого телефона уже есть владелец устройства ({0}). Владелец может быть только один, поэтому телефон нужно сбросить к заводским настройкам, прежде чем Killit сможет им стать.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Нужно удалить элементов: {0}. Удалите их на телефоне, затем снова нажмите «Проверить».</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Телефон готов. Нажмите «Авторизовать», чтобы сделать Killit владельцем устройства.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>Killit назначается владельцем устройства…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Готово! Killit теперь владелец этого телефона. Можно отключить кабель.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>Телефон сообщил об успехе, но подтвердить, что Killit стал владельцем устройства, не удалось. Нажмите «Проверить», чтобы посмотреть ещё раз.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>Android отказался назначить Killit владельцем устройства.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>На телефоне ещё есть аккаунты. Удалите их и снова нажмите «Проверить».</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>На телефоне ещё есть другие пользователи или рабочий профиль. Удалите их и снова нажмите «Проверить».</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>У телефона уже есть владелец устройства. Сначала его нужно сбросить к заводским настройкам.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>Этому телефону нужна ещё одна настройка: в параметрах разработчика включите также «Отладка по USB (настройки безопасности)» (Xiaomi, Redmi, POCO), затем повторите попытку.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>Версия Killit на этом телефоне несовместима. Обновите Killit и повторите попытку.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Сообщение от телефона:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Связь с телефоном потеряна ({0}). Переподключите его и нажмите «Обновить».</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>Не удалось запустить adb ({0}). Переустановите Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>adb не запускается, потому что отсутствует обновление Windows KB2999226 (Universal C Runtime). Установите его через Центр обновления Windows или переустановите эту программу, затем запустите её снова.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Непредвиденная ошибка: {0}</value>
+  </data>
+</root>

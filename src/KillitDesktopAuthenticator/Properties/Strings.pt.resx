@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Killit Desktop Authenticator</value>
+  </data>
+  <data name="Intro" xml:space="preserve">
+    <value>Torna a app Killit o proprietário do dispositivo do teu telemóvel. No telemóvel, ativa a depuração USB nas Opções de programador, liga-o com um cabo USB e aceita a pergunta «Permitir depuração USB?».</value>
+  </data>
+  <data name="DevicesGroup" xml:space="preserve">
+    <value>1. Telemóveis ligados</value>
+  </data>
+  <data name="ColPhone" xml:space="preserve">
+    <value>Telemóvel</value>
+  </data>
+  <data name="ColSerial" xml:space="preserve">
+    <value>Número de série</value>
+  </data>
+  <data name="ColState" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="StateReady" xml:space="preserve">
+    <value>Pronto</value>
+  </data>
+  <data name="StateUnauthorized" xml:space="preserve">
+    <value>À espera de autorização – aceita a pergunta no telemóvel</value>
+  </data>
+  <data name="StateOffline" xml:space="preserve">
+    <value>Offline – volta a ligar o cabo</value>
+  </data>
+  <data name="StateOther" xml:space="preserve">
+    <value>Indisponível ({0})</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Verificar</value>
+  </data>
+  <data name="BlockersGroup" xml:space="preserve">
+    <value>2. Contas e utilizadores a remover</value>
+  </data>
+  <data name="ColName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="ColKind" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ColDetail" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="KindAccount" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="KindUser" xml:space="preserve">
+    <value>Utilizador / perfil</value>
+  </data>
+  <data name="UserDetail" xml:space="preserve">
+    <value>ID de utilizador {0}</value>
+  </data>
+  <data name="BlockersHint" xml:space="preserve">
+    <value>Remove cada item abaixo no telemóvel, nas Definições (Contas, e Utilizadores ou Vários utilizadores), e depois prime Verificar novamente.</value>
+  </data>
+  <data name="AuthenticateGroup" xml:space="preserve">
+    <value>3. Proprietário do dispositivo</value>
+  </data>
+  <data name="Authenticate" xml:space="preserve">
+    <value>Autorizar</value>
+  </data>
+  <data name="WebsiteLink" xml:space="preserve">
+    <value>Obtém o Killit em tamodak.org</value>
+  </data>
+  <data name="StatusSearching" xml:space="preserve">
+    <value>A procurar telemóveis…</value>
+  </data>
+  <data name="StatusNoDevices" xml:space="preserve">
+    <value>Nenhum telemóvel encontrado. Verifica o cabo USB, confirma que a depuração USB está ativa e que o controlador USB do teu telemóvel está instalado, e depois prime Atualizar.</value>
+  </data>
+  <data name="StatusDevicesFound" xml:space="preserve">
+    <value>Telemóveis encontrados: {0}. Seleciona um e prime Verificar.</value>
+  </data>
+  <data name="StatusChecking" xml:space="preserve">
+    <value>A verificar o telemóvel…</value>
+  </data>
+  <data name="StatusKillitMissing" xml:space="preserve">
+    <value>O Killit não está instalado neste telemóvel. Instala-o primeiro e depois prime Verificar novamente.</value>
+  </data>
+  <data name="StatusOwnerExists" xml:space="preserve">
+    <value>Este telemóvel já tem um proprietário do dispositivo ({0}). Um telemóvel só pode ter um, por isso tem de ser reposto de fábrica antes de o Killit o poder ser.</value>
+  </data>
+  <data name="StatusBlockersFound" xml:space="preserve">
+    <value>Itens a remover: {0}. Remove-os no telemóvel e depois prime Verificar novamente.</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>O telemóvel está pronto. Prime Autorizar para tornar o Killit o proprietário do dispositivo.</value>
+  </data>
+  <data name="StatusAuthenticating" xml:space="preserve">
+    <value>A tornar o Killit o proprietário do dispositivo…</value>
+  </data>
+  <data name="StatusSuccess" xml:space="preserve">
+    <value>Concluído! O Killit é agora o proprietário deste telemóvel. Podes desligá-lo.</value>
+  </data>
+  <data name="StatusVerifyFailed" xml:space="preserve">
+    <value>O telemóvel indicou sucesso, mas não foi possível confirmar o Killit como proprietário do dispositivo. Prime Verificar para ver novamente.</value>
+  </data>
+  <data name="StatusFailed" xml:space="preserve">
+    <value>O Android recusou tornar o Killit o proprietário do dispositivo.</value>
+  </data>
+  <data name="HintAccounts" xml:space="preserve">
+    <value>Ainda há contas no telemóvel. Remove-as e prime Verificar novamente.</value>
+  </data>
+  <data name="HintUsers" xml:space="preserve">
+    <value>Ainda há outros utilizadores ou um perfil de trabalho no telemóvel. Remove-os e prime Verificar novamente.</value>
+  </data>
+  <data name="HintOwnerSet" xml:space="preserve">
+    <value>O telemóvel já tem um proprietário do dispositivo. Tem de ser reposto de fábrica primeiro.</value>
+  </data>
+  <data name="HintSecurity" xml:space="preserve">
+    <value>Este telemóvel precisa de mais uma definição: nas Opções de programador ativa também «Depuração USB (definições de segurança)» (Xiaomi, Redmi, POCO) e tenta novamente.</value>
+  </data>
+  <data name="HintUnknownAdmin" xml:space="preserve">
+    <value>A versão do Killit neste telemóvel não é compatível. Atualiza o Killit e tenta novamente.</value>
+  </data>
+  <data name="PhoneOutput" xml:space="preserve">
+    <value>Mensagem do telemóvel:</value>
+  </data>
+  <data name="StatusDeviceLost" xml:space="preserve">
+    <value>Perdeu-se a ligação ao telemóvel ({0}). Volta a ligá-lo e prime Atualizar.</value>
+  </data>
+  <data name="StatusAdbMissing" xml:space="preserve">
+    <value>Não foi possível iniciar o adb ({0}). Reinstala o Killit Desktop Authenticator.</value>
+  </data>
+  <data name="StatusRuntimeMissing" xml:space="preserve">
+    <value>O adb não conseguiu arrancar porque falta a atualização do Windows KB2999226 (Universal C Runtime). Instala-a através do Windows Update ou reinstala este programa e volta a abri-lo.</value>
+  </data>
+  <data name="StatusUnexpected" xml:space="preserve">
+    <value>Erro inesperado: {0}</value>
+  </data>
+</root>
