@@ -22,3 +22,7 @@ dist/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Agent task files: temporary, never committed
+/agent-prompts/
+/agent-reports/
